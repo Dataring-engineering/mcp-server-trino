@@ -28,3 +28,30 @@ The server reads Trino connection details from environment variables:
 | `TRINO_PASSWORD` | Trino password (optional, depends on your authentication setup)      | (empty)    |
 | `TRINO_CATALOG`  | Default catalog to use (e.g., `hive`, `tpch`, `postgresql`, etc.)    | *required* |
 | `TRINO_SCHEMA`   | Default schema to use (e.g., `default`, `public`, etc.)             | *required* |
+
+## Usage
+
+``` json
+{
+  "mcpServers": {
+    "trino": {
+      "command": "uv",
+      "args": [
+        "--directory", 
+        "<path_to_mcp_server_trino>",
+        "run",
+        "mcp_server_trino"
+      ],
+      "env": {
+        "TRINO_HOST": "<host>",
+        "TRINO_PORT": "<port>",
+        "TRINO_USER": "<user>",
+        "TRINO_PASSWORD": "<password>",
+        "TRINO_CATALOG": "<catalog>",
+        "TRINO_SCHEMA": "<schema>"
+      }
+    }
+  }
+}
+
+```

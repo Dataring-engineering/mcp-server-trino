@@ -1,55 +1,23 @@
-.DS_Store
-
-# Byte-compiled / optimized / DLL files
+# Python-generated files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
+*.py[oc]
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
 wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-*.manifest
-*.spec
+*.egg-info
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Virtual environments
+.venv
+Lib/
+Scripts/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+# Development environment
+.python-version
+uv.lock
 
+# IDE settings (optional)
+.vscode/
+.idea/
 
-# PyBuilder
-.pybuilder/
-target/
+# Distribution directories
+*.dist-info/
