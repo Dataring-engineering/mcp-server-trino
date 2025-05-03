@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dataring-engineering-mcp-server-trino-badge.png)](https://mseep.ai/app/dataring-engineering-mcp-server-trino)
+
 # Trino MCP Server
 
 This repository provides an MCP (Model-Control-Protocol) server that allows you to list and query tables via Trino using Python.
