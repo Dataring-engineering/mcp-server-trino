@@ -1,4 +1,5 @@
 # Trino MCP Server
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/Dataring-engineering/mcp-server-trino)](https://archestra.ai/mcp-catalog/dataring-engineering__mcp-server-trino)
 
 This repository provides an MCP (Model-Control-Protocol) server that allows you to list and query tables via Trino using Python.
 
