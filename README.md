@@ -2,6 +2,10 @@
 
 This repository provides an MCP (Model-Control-Protocol) server that allows you to list and query tables via Trino using Python.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/dataring-engineering-mcp-server-trino).
+
 ## Overview
 
 - MCP: MCP is a protocol for bridging AI models, data, and tools. This example MCP server provides:
